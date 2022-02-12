@@ -138,7 +138,7 @@ struct fastboot_cmd_desc {
 #endif
 
 #define MAX_TAGS_SIZE   1024
-#define PLL_CODES_OFFSET 4096
+#define PLL_CODES_OFFSET 0
 /* make 4096 as default size to ensure EFS,EXT4's erasing */
 #define DEFAULT_ERASE_SIZE  4096
 #define MAX_PANEL_BUF_SIZE 196
